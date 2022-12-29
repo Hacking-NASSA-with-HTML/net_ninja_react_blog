@@ -1,6 +1,4 @@
-# Net Ninja react Blog
-
-Net Ninja react Blog. 
+# Net Ninja react Blog 
 
 Awesome tutorial over materials of
 
