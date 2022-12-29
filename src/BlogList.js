@@ -2,7 +2,7 @@ const BlogList = ({ blogs, title }) => {
     // const blogs = props.blogs
     // const title = props.title
 
-    // console.log(blogs, title)
+    console.log(blogs, title)
 
     return (
         <div className="blog-list">
