@@ -12,12 +12,20 @@ const Home = () => {
     }
 
     useEffect(() => {
-        console.log('Use Effect ran')
+        // console.log('Use Effect ran')
+        fetch('http://localhost:8000/blogs')
+            .then(res => {
+                return res.json()
+            })
+            .then(data => {
+                // console.log(data)
+                setBlogs(data)
+            })
     }, [])
 
     return (
         <div className="home">
-            <BlogList blogs={blogs} title='All Blogs!' handleDelete={handleDelete} />
+            {blogs && <BlogList blogs={blogs} title='All Blogs!' handleDelete={handleDelete} />}
         </div>
     )
 }
