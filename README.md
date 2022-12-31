@@ -12,11 +12,17 @@ Command to run the json-server in the SECOND terminal:
 npx json-server --watch data/db.json --port 8000
 ```
 
-Syntax for Handling Fetch Errors see in commit 
+Syntax for Handling Fetch Errors and
+
+Loader shown before data appears for rendering
+
+see in commits 
 
 from Third branch `fetchingData-with-useEffect-17lesson` :
 
-feat: add Handling Fetch Errors syntax
+feat: add Handling Fetch Errors syntax  and
+
+feat: add Loader shown before data appears for rendering
 
 Pay attention please.
 
